@@ -83,3 +83,27 @@
 
 
 /* Esercizio 8 */
+
+.ex-8-img {
+    transition: filter 2s, border-radius 2s;
+    cursor: pointer;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: contrast(200%) grayscale(80%);
+}
+
+
+/* Esercizio 9 */
+
+.ex-9-img {
+    transition: border-radius 2s, filter 2s, transform 2s;
+    cursor: pointer;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: contrast(200%) grayscale(80%);
+    transform: scale(1.5);
+}
