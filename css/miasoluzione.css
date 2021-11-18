@@ -47,3 +47,39 @@
 
 
 /* Esercizio 5 */
+
+.ex-5-square {
+    transition: transform 2s;
+    cursor: pointer;
+}
+
+.ex-5-square:hover {
+    transform: scale(1.3);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+
+/* Esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+
+/* Esercizio 7 */
+
+.ex-7-img {
+    transition: filter 2s;
+    cursor: pointer;
+}
+
+.ex-7-img:hover {
+    filter: contrast(200%) grayscale(80%);
+}
+
+
+/* Esercizio 8 */
