@@ -107,3 +107,19 @@
     filter: contrast(200%) grayscale(80%);
     transform: scale(1.5);
 }
+
+
+/* Esercizio 10 */
+
+.ex-10-icon {
+    animation: infinity 1s linear infinite;
+}
+
+@keyframes infinity {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Esercizio 11 */
