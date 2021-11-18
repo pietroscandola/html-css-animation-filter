@@ -196,11 +196,11 @@
         left: calc(100% - 30px);
         top: 100%;
     }
-    75% {
+    60% {
         left: 0;
         top: 100%;
     }
-    90% {
+    80% {
         left: -15px;
         top: -10px;
     }
@@ -227,11 +227,11 @@
         right: calc(100% - 30px);
         bottom: 100%;
     }
-    75% {
+    60% {
         right: 0;
         bottom: 100%;
     }
-    90% {
+    80% {
         right: -15px;
         bottom: -10px;
     }
